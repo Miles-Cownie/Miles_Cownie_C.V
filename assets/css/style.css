@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ------------------------------------- Colours */
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+/* ------------------------------------- Heading */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url(../images/rosie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 46px;
+    margin-top: 50px;
+    color: white;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-decoration: underline;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
