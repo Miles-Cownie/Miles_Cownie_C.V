@@ -22,6 +22,28 @@
     background-color: #525252;
 }
 
+/* ------------------------------------- Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
 /* ------------------------------------- Heading */
 
 header {
@@ -71,7 +93,101 @@ header {
     font-size: 0;
 }
 
+#nav {
+    margin: 0;
+}
+
 #nav li {
     font-size: 14px;
     padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: whitesmoke;
+    font-size: 26px;
+}
+
+.menuitem a span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------- Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* ------------------------------------- Footer */
+
+footer {
+    background-color: #525252;
+    color: whitesmoke;
+    min-height: 120px;
+    margin: 0;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: whitesmoke;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #e84610;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 12px 12px 11px;
+    font-size: 13px;
+    line-height: 7px;
+    border-radius: 50%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
 }
